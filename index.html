@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Staff - Pablo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #ffffff;
+            background-image: url('https://i.imgur.com/ipQicQE.jpeg'); 
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .portfolio-container {
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .profile-pic {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #FFD700;
+        }
+
+        .role {
+            font-size: 1.2em;
+            color: #87CEFA; /* Azul claro para "Sênior Moderador" */
+        }
+
+        .bio {
+            margin: 15px 0;
+            font-size: 1.2em;
+        }
+
+        .buttons {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        /* Botões com cores complementares */
+        .buttons button {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: background-color 0.3s, border-color 0.3s;
+            font-size: 16px;
+            border: 2px solid;
+        }
+
+        .buttons button:nth-child(1) {
+            border-color: #DAA520; /* Dourado escuro */
+        }
+
+        .buttons button:nth-child(2) {
+            border-color: #8B4513; /* Marrom */
+        }
+
+        .buttons button:nth-child(3) {
+            border-color: #CD5C5C; /* Vermelho suave */
+        }
+
+        .buttons button:nth-child(4) {
+            border-color: #4682B4; /* Azul suave */
+        }
+
+        .buttons button:hover {
+            background-color: #FFD700;
+            border-color: #5b6e8e;
+        }
+
+        .servers, .trello, .links {
+            margin: 20px 0;
+        }
+
+        .server-card {
+            background-color: rgba(0, 0, 0, 0.6);
+            border-radius: 10px;
+            margin: 10px;
+            display: inline-block;
+            width: 200px;
+            padding: 15px;
+            border: 2px solid #FFD700;
+        }
+
+        .server-card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .server-name {
+            font-weight: bold;
+            color: #FFD700;
+            margin-top: 10px;
+        }
+
+        .server-population {
+            color: #999;
+        }
+
+        .links a {
+            display: inline-block;
+            margin: 0 10px;
+            background-color: rgba(0, 0, 0, 0.6);
+            border: 2px solid #FFD700;
+            border-radius: 5px;
+            padding: 10px 20px;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 18px;
+            transition: background-color 0.3s, border-color 0.3s;
+        }
+
+        .links a:hover {
+            background-color: #FFD700;
+            border-color: #5b6e8e;
+        }
+
+        .links a img {
+            width: 25px;
+            height: 25px;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+
+        .trello-buttons {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .trello-buttons button {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+            border: 2px solid #FFD700;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: background-color 0.3s, border-color 0.3s;
+            font-size: 16px;
+        }
+
+        .trello-buttons button:hover {
+            background-color: #FFD700;
+            border-color: #5b6e8e;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="portfolio-container">
+        <img src="https://cdn.discordapp.com/avatars/652915436823773194/49be7fe1f75d4a0c529677ce2da5c047.png?size=2048" alt="Foto de perfil" class="profile-pic">
+        <h1>Pablo ( Batata )<br><span class="role">Sênior Moderador</span></h1>
+        <div class="bio">
+            <p>Meu nome é Pablo, tenho 17 anos e possuo dois anos de experiência como moderador sênior. Atualmente, busco novas oportunidades que me permitam avançar para o cargo de administrador de comunidade. Com um compromisso sólido em ajudar e colaborar, meu objetivo é contribuir para a criação de um ambiente seguro, acolhedor e harmonioso, onde todos se sintam bem-vindos e respeitados.</p>
+        </div>
+
+        <div class="buttons">
+            <button>Contributions as staff 60k+</button>
+            <button>2 Years of Experience  </button>
+            <button>Sênior Moderator</button>
+            <button>Trello Maker</button>
+        </div>
+
+        <h2>Servers Worked</h2>
+        <div class="servers">
+            <div class="server-card">
+                <img src="https://cdn.discordapp.com/icons/1238298065648091289/1d7c1542080a27986ba7092a952f69a7.png?size=2048" alt="Anime Strike">
+                <div class="server-name">Anime Strike</div>
+                <div class="server-population">Sênior Moderator - 34k+</div>
+            </div>
+            <div class="server-card">
+                <img src="https://i.imgur.com/0uzmB2Q.jpeg" alt="Anime Heroes">
+                <div class="server-name">Anime Heroes</div>
+                <div class="server-population">Moderator - 13k+</div>
+            </div>
+            <div class="server-card">
+                <img src="https://i.imgur.com/s0UYk33.jpeg" alt="Anime Sword X">
+                <div class="server-name">Anime Sword X</div>
+                <div class="server-population">Moderator - 6k+</div>
+            </div>
+            <div class="server-card">
+                <img src="https://i.imgur.com/OFsWVn9.jpeg" alt="Anime Blast">
+                <div class="server-name">Anime Blast</div>
+                <div class="server-population">Moderator - 3k+</div>
+            </div>
+        </div>
+
+        <h2>Trello</h2>
+        <div class="trello">
+            <p>Atualmente, em meu tempo livre, sou responsável pela criação de Trellos destinados aos jogadores, com o objetivo de otimizar o trabalho dos helpers e aprimorar a experiência de jogo. Dedico-me intensamente a essa atividade e conto com o apoio de uma equipe dedicada, que se empenha continuamente para garantir resultados eficazes e de alta qualidade.
+<p>
+        </div>
+
+        <div class="trello-buttons">
+            <button onclick="window.location.href='https://trello.com/b/uJ7fTeT6/anime-strike'">Strike</button>
+            <button onclick="window.location.href='https://trello.com/b/MxEUWnwN/anime-heroes-simulator-trello'">Heroes</button>
+            <button onclick="window.location.href='https://trello.com/b/5iBMk8In/anime-blast-trello'">Blast</button>
+        </div>
+
+        <h2>Useful Links</h2>
+        <div class="links">
+            <a href="https://youtube.com/@yt_batata?si=yQI3Khgsd1izLT_J"><img src="https://i.imgur.com/geUrQi4.png" alt="YouTube">YouTube</a>
+            <a href="https://www.tiktok.com/@nah4859?_t=8rJsacXp4Yp&_r=1"><img src="https://i.imgur.com/tfvpbvn.png" alt="TikTok">TikTok</a>
+            <a href="https://www.roblox.com/pt/users/1272380035/profile"><img src="https://i.imgur.com/bIILL1q.png" alt="Roblox">Roblox</a>
+        </div>
+    </div>
+</body>
+</html>
+
